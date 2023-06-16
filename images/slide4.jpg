@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://esenceweb.com/krustycone/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Krustycone | Home</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keyword" content="">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="./slide4_files/bootstrap.min.css">
+  <link rel="stylesheet" href="./slide4_files/font-awesome.min.css">
+  <link rel="stylesheet" href="./slide4_files/style.css">
+  <script src="./slide4_files/jquery.min.js.download"></script>
+  <script src="./slide4_files/popper.min.js.download"></script>
+  <script src="./slide4_files/bootstrap.min.js.download"></script>
+  <link rel="stylesheet" media="screen" href="./slide4_files/bellota" type="text/css">
+
+  <script>
+    window.onload = (function(){ prettyPrint(); });
+    $(document).ready(function()
+    {
+        var prettyprint = false;
+        $("pre code").parent().each(function()
+        {
+            $(this).addClass('prettyprint linenums');
+            prettyprint = true;
+        });
+        if ( prettyprint )
+        {
+            $.getScript("https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js", function() { prettyPrint() });
+        }
+    });
+  $("span").hide();
+
+  $(".menu-box").scroll(function() {
+      if($(this).scrollTop() + $(this).innerHeight() >= $(this)[0].scrollHeight) {
+          $("span").show();
+      } else {
+          $("span").hide();
+      }
+  });
+
+  $(document).ready(function () {
+    $(".gallery-img").click(function(){
+      var t = $(this).attr("src");
+      $(".modal-body").html("<img src='"+t+"' class='modal-img'>");
+      $("#myModal").modal();
+    });
+  });
+  </script>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="./slide4_files/move-top.js.download"></script>
+<script type="text/javascript" src="./slide4_files/easing.js.download"></script>
+<script type="text/javascript">
+  jQuery(document).ready(function ($) {
+    $(".scroll").click(function (event) {
+      event.preventDefault();
+      $('html,body').animate({
+        scrollTop: $(this.hash).offset().top
+      }, 1000);
+    });
+  });
+</script>
+<!-- start-smoth-scrolling -->
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-md fixed-top bg-white shift">
+    <div class="navbar-collapse w-100 dual-collapse2 order-1 order-md-0 collapse" style="">
+            <ul class="navbar-nav ml-auto text-center">
+                <li class="nav-item active">
+                    <a class="nav-link scroll" href="http://esenceweb.com/krustycone/#home">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll" href="http://esenceweb.com/krustycone/#about">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll" href="http://esenceweb.com/krustycone/#menu">MENU</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mx-auto order-0 order-md-1 position-relative main-logo">
+            <a class="mx-auto" href="http://esenceweb.com/krustycone/#">
+                <img src="./slide4_files/main-logo.png">
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target=".dual-collapse2" aria-expanded="false">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="navbar-collapse w-100 dual-collapse2 order-2 order-md-2 collapse" style="">
+            <ul class="navbar-nav mr-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link scroll" href="http://esenceweb.com/krustycone/#review">REVIEWS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll" href="http://esenceweb.com/krustycone/#gallery">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll" href="http://esenceweb.com/krustycone/#contact">CONTACT US</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<section id="home" class="banner"></section>
+<section id="about" class="about mb-5">
+  <div class="container">
+    <h1 class="about-title text-center p-5">ABOUT US</h1>
+    <div class="row text-center" style="">
+      <div class="col-sm-6 col-md-6 col-lg-6 hover01">
+        <img src="./slide4_files/About2.png" width="90%" alt="krustycone about-img-2 " class="">
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <p class="about-info">Krusty Cone, an idea born out of passion and mission to spread test and delight, is a quirky food place located in the Lal Baugh arena of the mumbail district. The city, being such an incredibly busy place, always has people on the go, consistantly depending on top quality, good tasting fast-food. Krusty Cone fills the gap by delivering Cone Pizzas that are super-delicious, Waffies that give you as quickly as you go about your busy lives, Choose between our rustic, cheesy pizzas made in the compact-handy shape of a cone, or Walffles, all hot and crispy and freshly made shakes to complement the savoury choices.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+<section id="menu" class="menu mb-5">
+  <div class="container">
+    <h1 class="about-title p-5 text-center">MENU</h1>
+    <div class="row" style="">
+    <div class="col-sm text-center mb-5">
+      <div class="masthead">
+      <div id="suds-carousel" class="carousel fade-carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+              <li data-target="#suds-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#suds-carousel" data-slide-to="1" class=""></li>
+              <li data-target="#suds-carousel" data-slide-to="2" class=""></li>
+              <li data-target="#suds-carousel" data-slide-to="3" class=""></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                  <div class="slide-1"></div>
+              </div>
+              <div class="carousel-item">
+                  <div class="slide-2"></div>
+              </div>
+              <div class="carousel-item">
+                  <div class="slide-3"></div>
+              </div>
+              <div class="carousel-item">
+                  <div class="slide-4"></div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+    <div class="col-sm">
+      <div class="menu-box">
+      <ul>
+        <li style="border-bottom:none;">
+          <h5>Traditional Cones:</h5>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Margherita </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Giardiniera </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Veggie Supreme </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Pesto Genovese </p>
+        </li>
+        <li style="border-bottom:none;">
+          <h5>Creme Cheese Cones:</h5>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Jalapeno N Olive Creme Cheese </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Corn N Creme Cheese </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Potato Fries N Creme Cheese </p>
+        </li>
+        <li style="border-bottom:none;">
+          <h5>Desi Cones:</h5>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Mumbai Chat </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Mini Vada </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Paneer Tikka Talk </p>
+        </li>
+        <li style="border-bottom:none;">
+          <h5>Global Cones:</h5>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Veggie Mexicana </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> American Hot Hot </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Sichuan Spring Veggie </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Crunchy Veg Siracha </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Cottage Cheese BBQ </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Cottage Cheese Piri Piri </p>
+        </li>
+        <li style="border-bottom:none;">
+          <h5>Waffles:</h5>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Cream Waffle Royale </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> White Chocolate Bizzard </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Oreos on Mine </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Salted Caramel </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Nuttela Choc Indulgence </p>
+        </li>
+
+        <li style="border-bottom:none;">
+          <h5>Pocket Fries:</h5>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Classic Salted </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Lemon Chilli </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Piri Piri </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Siracha </p>
+        </li>
+
+        <li style="border-bottom:none;">
+          <h5>Shakes:</h5>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Just Orio Drunk </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Bubble Gum Strawberry </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Hazed &amp; Confused. </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Ferrero Rocher </p>
+        </li>
+        <li>
+          <p class="menu-title"><i class="fa fa-circle"></i> Blueberry Creme Cheese </p>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+</section> 
+<section id="review" class="testimonial">
+  <div class="container">
+    <h1 class="testimonial-title text-center">TESTIMONIALS</h1>
+            <div class="row blog ">
+                <div class="col-md-12">
+                    <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row text-center">
+                                    <div class="col-md-4 col-sm-12 mb-5">
+                                        <div class="box">
+                                            <img src="./slide4_files/quote.png" width="50px">
+                                            <p>Amazing food , a different concept the ambience is just on point , loved their shakes , hazelnut shake is a must have and the staff is also friendly !.</p>
+                                            <p>- Vipul Shah</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12 mb-5">
+                                      <div class="box">
+                                          <img src="./slide4_files/quote.png" width="50px">
+                                          <p>Amazing and cute lil place!!
+I tried Ferrero Rocher shake  was simply awesome.
+Also had Jalapeno and olive creme cheese cone served with salted fries and trust me you have to keep ur stomach half empty for this cheesy fun!!
+A must visit🤩!!.</p>
+                                          <p>- Rakhi Sonkuare</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12 mb-5">
+                                      <div class="box">
+                                          <img src="./slide4_files/quote.png" width="50px">
+                                          <p>Loved it!! Just amazing 😊😍😍😍
+Pizza cones and the hazel shake my new fav😍💕💕
+A must visit for every foodie lover.
+Ambiance and food a perfect combo at krusty cone!!!❤️❤️.</p>
+                                          <p>- Jitendra Jain</p>
+                                      </div>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+                        </div>
+                        <!--.carousel-inner-->
+                    </div>
+                    <!--.Carousel-->
+                </div>
+            </div>
+        </div>
+</section>
+<section id="gallery" class="">
+  <div class="container">
+    <h1 class="about-title p-5 text-center">GALLERY</h1>
+  	<div class="gallery">
+  		<img src="./slide4_files/1.png" alt="" width="100%" height="auto" class="gallery-img">
+  		<img src="./slide4_files/2.png" alt="" width="100%" height="auto" class="gallery-img">
+      <img src="./slide4_files/3.png" alt="" width="100%" height="auto" class="gallery-img">
+      <img src="./slide4_files/4.png" alt="" width="100%" height="auto" class="gallery-img">
+      <img src="./slide4_files/5.png" alt="" width="100%" height="auto" class="gallery-img">
+      <img src="./slide4_files/6.png" alt="" width="100%" height="auto" class="gallery-img">
+      <img src="./slide4_files/7.png" alt="" width="100%" height="auto" class="gallery-img">
+      <img src="./slide4_files/8.png" alt="" width="100%" height="auto" class="gallery-img">
+  		</div>
+</div>
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog animated zoomIn animated-3x">
+    <div class="modal-content">
+      <div class="modal-body">
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section id="contact" class="main-footer ">
+  <div class="container">
+    <h1 class="footer-title text-center">CONTACT US</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="contact-info">
+          <li><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; Shop No. 3, Avighna lx, Building No. 4, Dr B.A.Road,<br>  Opp. to Ladoo Samrath, Lalbaug, Mumbai- 400012</li>
+          <li><a><i class="fa fa-phone" aria-hidden="true"></i> &nbsp;+91 7400143648</a></li>
+          <li><a><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;info@krustycone.com</a></li>
+        </ul>
+        <ul class="social-nav">
+          <li>
+            <a href="http://esenceweb.com/krustycone/#" class="btn btn-social-icon btn-linkedin">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="http://esenceweb.com/krustycone/" class="btn btn-social-icon btn-twitter">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="http://esenceweb.com/krustycone/" class="btn btn-social-icon btn-instagram">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="http://esenceweb.com/krustycone/" class="btn btn-social-icon btn-zomato">
+              <img width="40px" src="./slide4_files/zomato.png">
+            </a>
+          </li>
+      </ul>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Name:" id="email">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email:" id="email">
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="form-group">
+              <textarea type="email" class="form-control" placeholder="Any Message.." id="email"></textarea>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="form-group">
+              <button class="pulse" type="submit" name="submit" value="">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<iframe src="./slide4_files/embed.html" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+
+
+</body></html>
